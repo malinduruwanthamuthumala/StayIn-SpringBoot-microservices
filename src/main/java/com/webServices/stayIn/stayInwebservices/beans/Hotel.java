@@ -48,7 +48,7 @@ public class Hotel {
 	public void setNoOfRooms(int noOfRooms) {
 		this.noOfRooms = noOfRooms;
 	}
-	public Hotel(int id, String name, String description, int noOfRooms) {
+	public Hotel(Integer id, String name, String description, int noOfRooms) {
 		super();
 		this.id = id;
 		this.name = name;
