@@ -2,7 +2,17 @@ package com.webServices.stayIn.stayInwebservices.beans;
 
 import java.util.Objects;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+
+import org.hibernate.annotations.Generated;
+
+@Entity
 public class Hotel {
+	
+	@Id
+	@GeneratedValue
 	private Integer id;
 	private String name;
 	private String description;
